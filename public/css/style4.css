@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+.card-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url('img/background.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 200px 200px 70px;
+    grid-template-areas: "image" "text";
+    margin: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .9);
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-image {
+    grid-area: image;
+    margin-top: 40px;
+}
+
+.card .one {
+    background: url('img/pak_indra.jpg') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card .two {
+    background: url('img/pak_argo.jpg') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card .three {
+    background: url('img/bu_umi.jpg') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 40px;
+}
+
+.card-text p {
+    margin: 10px;
+}
+
+.card-recommended {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: black;
+    color: white;
+}
+
+.ajukanarea {
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+}
+
+.submit:hover {
+    background-color: #52DDBC;
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: rgba(10, 20, 20, .7);
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}

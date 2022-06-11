@@ -1,0 +1,139 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.box {
+    position: absolute;
+    width: 450px;
+    background-color: #52DDBC;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    border-radius: 15px;
+}
+
+.header {
+    padding: 30px 30px;
+    color: white;
+    text-align: center;
+}
+
+.loginarea {
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+
+}
+
+.pengajuanarea {
+    text-align: center;
+    padding: 0px 50px 30px 50px;
+
+}
+
+.email, .password {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    transition: .5s;
+    color: #52DDBC;
+}
+
+.email:focus, .password:focus {
+    background-color: rgba(10, 20, 20, .7);
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    transition: .5s;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgba(10, 20, 20, .7);
+}
+
+a {
+    display: block;
+    font-size: small;
+    text-decoration: none;
+    color: rgba(10, 20, 20, .7);
+    margin-top: 10px;
+}
+
+.nama, .nim , .judul{
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    transition: .5s;
+    color: #147d65;
+}
+
+.kompetensi, .jumlah, .jabatan{
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    transition: .5s;
+    color: rgba(10, 20, 20, .7);
+}
+
+.nama:focus, .nim:focus , .judul:focus {
+    background-color: rgba(10, 20, 20, .7);
+}
+
+.ajukan {
+    width: 100%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    transition: .5s;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.ajukan:hover {
+    background-color: rgba(10, 20, 20, .7);
+}
+
+.cancel {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    transition: .5s;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: rgba(252, 8, 8, 0.712);
+}
