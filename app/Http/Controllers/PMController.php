@@ -22,45 +22,45 @@ class PMController extends Controller
 
         if ($kompetensi == '1') {
             $i_jarkom = 5;
-            $i_progmob = 0;
-            $i_progweb = 0;
-            $i_uiux = 0;
-            $i_inforsec = 0;
-            $i_dataan = 0;
+            $i_progmob = 6;
+            $i_progweb = 5;
+            $i_uiux = 5;
+            $i_inforsec = 6;
+            $i_dataan = 6;
         } else if ($kompetensi == '2') {
-            $i_jarkom = 0;
+            $i_jarkom = 4;
             $i_progmob = 7;
-            $i_progweb = 0;
-            $i_uiux = 0;
-            $i_inforsec = 0;
-            $i_dataan = 0;
+            $i_progweb = 5;
+            $i_uiux = 5;
+            $i_inforsec = 6;
+            $i_dataan = 6;
         } else if ($kompetensi == '3') {
-            $i_jarkom = 0;
-            $i_progmob = 0;
+            $i_jarkom = 4;
+            $i_progmob = 6;
             $i_progweb = 6;
-            $i_uiux = 0;
-            $i_inforsec = 0;
-            $i_dataan = 0;
+            $i_uiux = 5;
+            $i_inforsec = 6;
+            $i_dataan = 6;
         } else if ($kompetensi == '4') {
-            $i_jarkom = 0;
-            $i_progmob = 0;
-            $i_progweb = 0;
+            $i_jarkom = 4;
+            $i_progmob = 6;
+            $i_progweb = 5;
             $i_uiux = 6;
-            $i_inforsec = 0;
-            $i_dataan = 0;
+            $i_inforsec = 6;
+            $i_dataan = 6;
         } else if ($kompetensi == '5') {
-            $i_jarkom = 0;
-            $i_progmob = 0;
-            $i_progweb = 0;
-            $i_uiux = 0;
+            $i_jarkom = 4;
+            $i_progmob = 6;
+            $i_progweb = 5;
+            $i_uiux = 5;
             $i_inforsec = 7;
-            $i_dataan = 0;
+            $i_dataan = 6;
         } else if ($kompetensi == '6') {
-            $i_jarkom = 0;
-            $i_progmob = 0;
-            $i_progweb = 0;
-            $i_uiux = 0;
-            $i_inforsec = 0;
+            $i_jarkom = 4;
+            $i_progmob = 6;
+            $i_progweb = 5;
+            $i_uiux = 5;
+            $i_inforsec = 6;
             $i_dataan = 7;
         } else {
             $i_jarkom = 0;
@@ -73,9 +73,9 @@ class PMController extends Controller
 
         if ($jumlah == '1') {
             $i_lebih10 = 7;
-            $i_kurang10 = 0;
+            $i_kurang10 = 5;
         } else if ($jumlah == '2') {
-            $i_lebih10 = 0;
+            $i_lebih10 = 6;
             $i_kurang10 = 6;
         } else {
             $i_lebih10 = 0;
@@ -84,23 +84,23 @@ class PMController extends Controller
 
         if ($jabatan == '1') {
             $i_wd1 = 7;
-            $i_wd2 = 0;
-            $i_wd3 = 0;
-            $i_dosen = 0;
+            $i_wd2 = 5;
+            $i_wd3 = 4;
+            $i_dosen = 3;
         } else if ($jabatan == '2') {
-            $i_wd1 = 0;
+            $i_wd1 = 6;
             $i_wd2 = 6;
-            $i_wd3 = 0;
-            $i_dosen = 0;
+            $i_wd3 = 4;
+            $i_dosen = 3;
         } else if ($jabatan == '3') {
-            $i_wd1 = 0;
-            $i_wd2 = 0;
+            $i_wd1 = 6;
+            $i_wd2 = 5;
             $i_wd3 = 5;
-            $i_dosen = 0;
+            $i_dosen = 3;
         } else if ($jabatan == '4') {
-            $i_wd1 = 0;
-            $i_wd2 = 0;
-            $i_wd3 = 0;
+            $i_wd1 = 6;
+            $i_wd2 = 5;
+            $i_wd3 = 4;
             $i_dosen = 4;
         } else {
             $i_wd1 = 0;
